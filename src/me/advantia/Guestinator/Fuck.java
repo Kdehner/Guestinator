@@ -19,7 +19,7 @@ public class Fuck extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		if (!setupPermissions()) {
-			log.info(String.format("[%s} - Disabled due to not having Vault installed.", getDescription().getName()));
+			log.info(String.format("[%s] - Disabled due to not having Vault installed.", getDescription().getName()));
 			getServer().getPluginManager().disablePlugin(this);
 			return;
 		}
