@@ -1,0 +1,17 @@
+name: Guestinator
+main: me.advantia.Guestinator.Fuck
+version: 0.1
+description: Fucking rank up to member you damn spick
+author: GlitchedNode, Kdehner
+website: http://advantia.me
+commands:
+   guestinator:
+      description: Reloads the Guestinator config ya twat
+      usage: /guestinator reload
+      permission: guestinator.reload
+      permission-message: Why would you ever try to do that you absolute moron?
+permissions:
+   guestinator.reload:
+        description: First I bang the drum, then I bang your mum
+        default: op
+depend: [Vault]
